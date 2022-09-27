@@ -193,9 +193,9 @@ Future sendEmail({
   required String subject,
   required String message,
 }) async {
-  const serviceId = 'service_5igmnrs';
-  const templateId = 'template_5r5qvye';
-  const userId = '2rJreDD0AsOYj0nmk';
+  const serviceId = 'serviceId';
+  const templateId = 'templateId';
+  const userId = 'userId';
 
   final url = Uri.parse('https://api.emailjs.com/api/v1.0/email/send');
 
